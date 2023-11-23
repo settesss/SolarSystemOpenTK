@@ -1,0 +1,10 @@
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\bin\Debug\OpenTK.dll
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\bin\Debug\OpenTK.pdb
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\bin\Debug\OpenTK.xml
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\obj\Debug\OpenTK.csproj.AssemblyReference.cache
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\obj\Debug\OpenTK.csproj.CoreCompileInputs.cache
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\obj\Debug\OpenTK.csproj.CopyComplete
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\bin\Debug\OpenTK.exe.config
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\bin\Debug\OpenTK.exe
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\obj\Debug\OpenTK.exe
+D:\Other\Учеба\ГМвСАПР\SolarSystem\OpenTK\obj\Debug\OpenTK.pdb

@@ -1,0 +1,89 @@
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\bin\Debug\OpenTKTut.exe.config
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\bin\Debug\OpenTKTut.exe
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\bin\Debug\OpenTKTut.pdb
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\bin\Debug\OpenTK.dll
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\bin\Debug\OpenTK.pdb
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\bin\Debug\OpenTK.xml
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\obj\Debug\OpenTKTut.csprojAssemblyReference.cache
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\obj\Debug\OpenTKTut.csproj.CopyComplete
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\obj\Debug\OpenTKTut.exe
+C:\Users\El-Wattaneya\source\repos\saleh\OpenTKTut\obj\Debug\OpenTKTut.pdb
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\obj\Debug\OpenTKTut.exe
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\obj\Debug\OpenTKTut.pdb
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\obj\Debug\OpenTKTut.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\obj\Debug\OpenTKTut.csproj.SuggestedBindingRedirects.cache
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\bin\Debug\OpenTKTut.exe.config
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\bin\Debug\OpenTKTut.exe
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\bin\Debug\OpenTKTut.pdb
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\bin\Debug\OpenTK.dll
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\bin\Debug\OpenTK.pdb
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\bin\Debug\OpenTK.xml
+C:\Users\PC\Downloads\OpenTKTut\OpenTKTut\obj\Debug\OpenTKTut.csproj.CopyComplete
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe.config
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.pdb
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.dll
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.pdb
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.xml
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.AssemblyReference.cache
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CopyComplete
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.exe
+M:\Mathew\E-learning for college\5th_Semester CS\Computer Graphics\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.pdb
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe.config
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.pdb
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.dll
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.pdb
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.xml
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csprojAssemblyReference.cache
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CopyComplete
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.exe
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson2 - Copy - Copy - Copy\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.pdb
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe.config
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.pdb
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.dll
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.pdb
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.xml
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csprojAssemblyReference.cache
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CopyComplete
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.exe
+C:\Users\Matt3\Desktop\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.pdb
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe.config
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.exe
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTKTut.pdb
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.dll
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.pdb
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\bin\Debug\OpenTK.xml
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.csproj.CopyComplete
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.exe
+C:\Users\pc\Desktop\new\SolarPlanetThirdPerson 3\SolarPlanetThirdPerson\SolarPlanetThirdPerson\obj\Debug\OpenTKTut.pdb
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTKTut.exe.config
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTKTut.exe
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTKTut.pdb
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTK.dll
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTK.pdb
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTK.xml
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.csprojAssemblyReference.cache
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.csproj.CopyComplete
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.exe
+C:\Users\Matt3\Desktop\OPEN-TK Project\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.pdb
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTKTut.exe.config
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTKTut.exe
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTKTut.pdb
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTK.dll
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTK.pdb
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\bin\Debug\OpenTK.xml
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.csproj.AssemblyReference.cache
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.csproj.CoreCompileInputs.cache
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.csproj.CopyComplete
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.exe
+D:\Other\Учеба\ГМвСАПР\SolarSys\PROJECT GRAPHIC OPEN TK\obj\Debug\OpenTKTut.pdb
