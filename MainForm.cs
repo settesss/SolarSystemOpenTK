@@ -11,34 +11,45 @@ namespace OpenTK
 
     partial class Viewport : Program
     {
-        private bool leftMouseDown;
+        private bool _leftMouseDown;
 
-        private bool rightMouseDown;
+        private bool _rightMouseDown;
 
-        private Point lastMousePos;
+        private Point _lastMousePos;
 
-        private float zoomSpeed = 3.0f;
+        private readonly float _zoomSpeed = 3.0f;
 
-        static readonly Vector3 InitialPosition = new Vector3(0.0f, 0.0f, 0.0f);
+        private static readonly Vector3 InitialPosition = new Vector3(0.0f, 0.0f, 0.0f);
 
-        static readonly Vector3 cometInitialPosition = new Vector3(0.0f, 20.0f, 0.0f);
+        static readonly Vector3 CometInitialPosition = new Vector3(0.0f, 20.0f, 0.0f);
 
-        static Vector3 linearMotionDirection = new Vector3(-1.5f, -1.5f, 0f);
+        static readonly Vector3 LinearMotionDirection = new Vector3(-1.5f, -1.5f, 0f);
 
-        static float linearMotionSpeed = 2.0f;
+        static readonly float LinearMotionSpeed = 2.0f;
 
-        private SpaceObject _sun = new SpaceObject(InitialPosition, 5, true, false, false, 1, 0, 0, 0, 0, 1, true);
-        private SpaceObject _mercury = new SpaceObject(InitialPosition, 0.488f, true, true, false, 1, 6, 1.5f, 0, 0, 2, false);
-        private SpaceObject _venus = new SpaceObject(InitialPosition, 1, true, true, false, 2, 11, 1.3f, 0, 0, 3, false);
-        private SpaceObject _earth = new SpaceObject(InitialPosition, 1.3f, true, true, false, 3, 15, 1.1f, 0, 0, 4, false);
-        private SpaceObject _moon = new SpaceObject(InitialPosition, 0.7f, true, true, true, 1, 15, 1.1f, 1.5f, 2f, 5, false);
-        private SpaceObject _mars = new SpaceObject(InitialPosition, 0.88f, true, true, false, 1, 23, 0.9f, 0, 0, 6, false);
-        private SpaceObject _marsSatellite = new SpaceObject(InitialPosition, 0.4f, true, true, true, 1, 23, 0.9f, 1f, 2f, 5, false);
-        private SpaceObject _jupiter = new SpaceObject(InitialPosition, 2.5f, true, true, false, 1, 30, 0.6f, 0, 0, 7, false);
-        private SpaceObject _saturn = new SpaceObject(InitialPosition, 2f, true, true, false, 1, 35, 0.5f, 0, 0, 8, false);
-        private SpaceObject _uranus = new SpaceObject(InitialPosition, 1.5f, true, true, false, 1, 40, 0.3f, 0, 0, 9, false);
-        private SpaceObject _neptune = new SpaceObject(InitialPosition, 1.3f, true, true, false, 1, 45, 0.2f, 0, 0, 10, false);
-        private SpaceObject _comet = new SpaceObject(cometInitialPosition, 0.5f, true, true, false, 1, 50, 0.1f, 0, 0, 11, false, true, linearMotionDirection, linearMotionSpeed);
+        private readonly SpaceObject _sun = new SpaceObject(InitialPosition, 5, true, false, false, 1, 0, 0, 0, 0, 1, true);
+
+        private readonly SpaceObject _mercury = new SpaceObject(InitialPosition, 0.488f, true, true, false, 1, 6, 1.5f, 0, 0, 2, false);
+
+        private readonly SpaceObject _venus = new SpaceObject(InitialPosition, 1, true, true, false, 2, 11, 1.3f, 0, 0, 3, false);
+
+        private readonly SpaceObject _earth = new SpaceObject(InitialPosition, 1.3f, true, true, false, 3, 15, 1.1f, 0, 0, 4, false);
+
+        private readonly SpaceObject _moon = new SpaceObject(InitialPosition, 0.7f, true, true, true, 1, 15, 1.1f, 1.5f, 2f, 5, false);
+
+        private readonly SpaceObject _mars = new SpaceObject(InitialPosition, 0.88f, true, true, false, 1, 23, 0.9f, 0, 0, 6, false);
+
+        private readonly SpaceObject _marsSatellite = new SpaceObject(InitialPosition, 0.4f, true, true, true, 1, 23, 0.9f, 1f, 2f, 5, false);
+
+        private readonly SpaceObject _jupiter = new SpaceObject(InitialPosition, 2.5f, true, true, false, 1, 30, 0.6f, 0, 0, 7, false);
+
+        private readonly SpaceObject _saturn = new SpaceObject(InitialPosition, 2f, true, true, false, 1, 35, 0.5f, 0, 0, 8, false);
+
+        private readonly SpaceObject _uranus = new SpaceObject(InitialPosition, 1.5f, true, true, false, 1, 40, 0.3f, 0, 0, 9, false);
+
+        private readonly SpaceObject _neptune = new SpaceObject(InitialPosition, 1.3f, true, true, false, 1, 45, 0.2f, 0, 0, 10, false);
+
+        private readonly SpaceObject _comet = new SpaceObject(CometInitialPosition, 0.5f, true, true, false, 1, 50, 0.1f, 0, 0, 11, false, true, LinearMotionDirection, LinearMotionSpeed);
 
         private List<OGLShape> _drawList;
 
@@ -163,13 +174,13 @@ namespace OpenTK
         {
             if (e.Delta > 0)
             {
-                MoveModel(Vector3.UnitY, -zoomSpeed);
-                MoveModel(Vector3.UnitZ, -zoomSpeed);
+                MoveModel(Vector3.UnitY, -_zoomSpeed);
+                MoveModel(Vector3.UnitZ, -_zoomSpeed);
             }
             else
             {
-                MoveModel(-Vector3.UnitY, -zoomSpeed);
-                MoveModel(-Vector3.UnitZ, -zoomSpeed);
+                MoveModel(-Vector3.UnitY, -_zoomSpeed);
+                MoveModel(-Vector3.UnitZ, -_zoomSpeed);
             }
         }
 
@@ -177,38 +188,38 @@ namespace OpenTK
         {
             if (e.Button == MouseButton.Left)
             {
-                leftMouseDown = true;
-                lastMousePos = new Point(e.X, e.Y);
+                _leftMouseDown = true;
+                _lastMousePos = new Point(e.X, e.Y);
             }
             else if (e.Button == MouseButton.Right)
             {
-                rightMouseDown = true;
-                lastMousePos = new Point(e.X, e.Y);
+                _rightMouseDown = true;
+                _lastMousePos = new Point(e.X, e.Y);
             }
         }
 
         private void Window_MouseMove(object sender, MouseMoveEventArgs e)
         {
-            if (leftMouseDown)
+            if (_leftMouseDown)
             {
-                var deltaX = e.X - lastMousePos.X;
-                var deltaY = e.Y - lastMousePos.Y;
+                var deltaX = e.X - _lastMousePos.X;
+                var deltaY = e.Y - _lastMousePos.Y;
 
                 MoveModel(Vector3.UnitX, deltaX * 0.01f);
                 MoveModel(Vector3.UnitY, -deltaY * 0.01f);
 
-                lastMousePos = new Point(e.X, e.Y);
+                _lastMousePos = new Point(e.X, e.Y);
             }
 
-            if (rightMouseDown)
+            if (_rightMouseDown)
             {
-                var deltaX = e.X - lastMousePos.X;
-                var deltaY = e.Y - lastMousePos.Y;
+                var deltaX = e.X - _lastMousePos.X;
+                var deltaY = e.Y - _lastMousePos.Y;
 
                 RotateModel(Vector3.UnitY, deltaX * 0.5f);
                 RotateModel(Vector3.UnitX, deltaY * 0.5f);
 
-                lastMousePos = new Point(e.X, e.Y);
+                _lastMousePos = new Point(e.X, e.Y);
             }
         }
 
@@ -216,11 +227,11 @@ namespace OpenTK
         {
             if (e.Button == MouseButton.Left)
             {
-                leftMouseDown = false;
+                _leftMouseDown = false;
             }
             else if (e.Button == MouseButton.Right)
             {
-                rightMouseDown = false;
+                _rightMouseDown = false;
             }
         }
 
