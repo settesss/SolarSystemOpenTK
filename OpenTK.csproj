@@ -56,11 +56,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Viewport.cs" />
     <Compile Include="MainForm.cs" />
-    <Compile Include="OrbitDraw.cs" />
-    <Compile Include="MeshElement.cs" />
-    <Compile Include="MeshElement_Statics.cs" />
+    <Compile Include="OrbitBuilder.cs" />
+    <Compile Include="Mesh.cs" />
+    <Compile Include="MeshFactory.cs" />
     <Compile Include="OGLShape.cs" />
-    <Compile Include="Sphere.cs" />
+    <Compile Include="SpaceObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

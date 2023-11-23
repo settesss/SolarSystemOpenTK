@@ -49,7 +49,7 @@ namespace OpenTK
 
                 var initialPosition = new Vector3(0.0f, 0.0f, 0.0f);
 
-                var venusOrbit = new OrbitDraw(
+                var venusOrbit = new OrbitBuilder(
                     initialPosition,
                     6,
                     1,
@@ -59,7 +59,7 @@ namespace OpenTK
                     2);
                 view.AddShape(venusOrbit);
 
-                var marsOrbit = new OrbitDraw(
+                var marsOrbit = new OrbitBuilder(
                     initialPosition,
                     11,
                     1,
@@ -69,7 +69,7 @@ namespace OpenTK
                     2);
                 view.AddShape(marsOrbit);
 
-                var earthOrbit = new OrbitDraw(
+                var earthOrbit = new OrbitBuilder(
                     initialPosition,
                     15,
                     1,
@@ -79,7 +79,7 @@ namespace OpenTK
                     2);
                 view.AddShape(earthOrbit);
 
-                var mercuryOrbit = new OrbitDraw(
+                var mercuryOrbit = new OrbitBuilder(
                     initialPosition,
                     23,
                     1,
@@ -89,7 +89,7 @@ namespace OpenTK
                     2);
                 view.AddShape(mercuryOrbit);
 
-                var jupiterOrbit = new OrbitDraw(
+                var jupiterOrbit = new OrbitBuilder(
                     initialPosition,
                     30,
                     1,
@@ -99,7 +99,7 @@ namespace OpenTK
                     2);
                 view.AddShape(jupiterOrbit);
 
-                var saturnOrbit = new OrbitDraw(
+                var saturnOrbit = new OrbitBuilder(
                     initialPosition,
                     35,
                     1,
@@ -109,7 +109,7 @@ namespace OpenTK
                     2);
                 view.AddShape(saturnOrbit);
 
-                var uranusOrbit = new OrbitDraw(
+                var uranusOrbit = new OrbitBuilder(
                     initialPosition,
                     40,
                     1,
@@ -119,7 +119,7 @@ namespace OpenTK
                     2);
                 view.AddShape(uranusOrbit);
 
-                var neptuneOrbit = new OrbitDraw(
+                var neptuneOrbit = new OrbitBuilder(
                     initialPosition,
                     45,
                     1,

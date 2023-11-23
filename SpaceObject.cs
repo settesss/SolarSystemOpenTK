@@ -1,9 +1,8 @@
-﻿using OpenTK;
-using OpenTK.Graphics.OpenGL;
+﻿using OpenTK.Graphics.OpenGL;
 
 namespace OpenTK.Shapes
 {
-    class Sphere : OGLShape
+    class SpaceObject : OGLShape
     {
         public bool IsStar { get; set; }
 
@@ -12,10 +11,12 @@ namespace OpenTK.Shapes
         public int TexType { get; set; }
 
         public bool IsLinearMotion { get; set; }
+
         public Vector3? LinearMotionDirection { get; set; }
+
         public float LinearMotionSpeed { get; set; }
 
-        public Sphere(Vector3 center,
+        public SpaceObject(Vector3 center,
             double radius,
             bool autoRotate,
             bool orbiting,
@@ -23,9 +24,9 @@ namespace OpenTK.Shapes
             float rotatingSpeed,
             float rotatingRadius,
             float orbitingSpeed,
-            float moonorbit,
+            float moonOrbit,
             float moonSpeed,
-            int textype,
+            int texType,
             bool isStar,
             bool isLinearMotion = false,
             Vector3? linearMotionDirection = null,
@@ -33,16 +34,16 @@ namespace OpenTK.Shapes
         {
             Center = center;
             Radius = radius;
-            MeshPolygons = MeshElement.Sphere(Radius);
+            MeshPolygons = Mesh.Sphere(Radius);
             EnableAutoRotate = autoRotate;
             Orbiting = orbiting;
             Moon = moon;
             RotatingSpeed = rotatingSpeed;
             RotatingRadius = rotatingRadius;
             OrbitingSpeed = orbitingSpeed;
-            MoonOrbit = moonorbit;
+            MoonOrbit = moonOrbit;
             MoonSpeed = moonSpeed;
-            TexType = textype;
+            TexType = texType;
             IsStar = isStar;
             IsLinearMotion = isLinearMotion;
             LinearMotionDirection = linearMotionDirection;
@@ -59,14 +60,16 @@ namespace OpenTK.Shapes
 
             GL.Begin(PrimitiveType.Quads);
 
-            for (var i = 0; i < MeshPolygons.Length; i++)
+            foreach (var polygon in MeshPolygons)
             {
                 for (var j = 0; j < 4; j++)
                 {
-                    var normal = MeshPolygons[i].Vertices[j].Normalized();
+                    var vertex = polygon.Vertices[j];
+                    var normal = vertex.Normalized();
+
                     GL.Normal3(normal);
-                    GL.TexCoord2(MeshPolygons[i].Texcoord[j]);
-                    GL.Vertex3(MeshPolygons[i].Vertices[j]);
+                    GL.TexCoord2(polygon.Texcoord[j]);
+                    GL.Vertex3(vertex);
                 }
             }
 

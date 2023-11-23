@@ -14,13 +14,13 @@ namespace OpenTK.Shapes
         public float MoonOrbit;
         public float MoonSpeed;
 
-        public MeshElement[] MeshPolygons { get => meshPolygons; set => meshPolygons = value; }
+        public Mesh[] MeshPolygons { get => meshPolygons; set => meshPolygons = value; }
 
         private float rotateAngle;
         private float orbitAngle;
         private float moonAngle;
         private float x1, z1, x2, y2, z2;
-        private MeshElement[] meshPolygons;
+        private Mesh[] meshPolygons;
 
         public virtual void Draw()
         {

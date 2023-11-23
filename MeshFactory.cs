@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using OpenTK;
 
 namespace OpenTK.Shapes
 {
-    partial class MeshElement
+    partial class Mesh
     {
         private static readonly double ConverterFactor = Math.PI / 180;
 
-        public static MeshElement[] Sphere(double radius)
+        public static Mesh[] Sphere(double radius)
         {
-            var res = new List<MeshElement>();
+            var res = new List<Mesh>();
 
             var delta = 10;
             float s = 36;
@@ -36,7 +35,7 @@ namespace OpenTK.Shapes
 
                     Vector3[] vertices = { _1, _2, _3, _4 };
                     Vector2[] texcoord = { _1Tex, _2Tex, _3Tex, _4Tex };
-                    res.Add(new MeshElement(vertices, texcoord));
+                    res.Add(new Mesh(vertices, texcoord));
                     s--;
                 }
                 t++;
